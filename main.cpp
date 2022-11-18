@@ -1,25 +1,24 @@
-﻿#include <iostream>
+#include <iostream>
 #include <cmath>
 
 using namespace std;
 
-int main() {
+int main()
+{
+    float x;
+    cout << "Proszę podać wartość dla x: ";
+    cin >> x;
 
-	float x, y;
+    cout << endl << "f(x) = ";
 
-	wcout << "Proszę podać wartość x: ";
-	cin >> x;
+    if (x>0)
+    {
+        cout << 2*sin(x);
+    }
+    else
+    {
+        cout << 6-x;
+    }
 
-	if (x > 0)
-	{
-		y = 2 * sin(x);
-	}
-	else
-	{
-		y = 6 - x;
-	}
-
-	cout << "f(x) = " << y;
-
-	return 0;
+    return 0;
 }

@@ -1,8 +1,7 @@
 # **Praca wykonana przez Krzyzstofa Jurkowskiego**
 
-> IDE: **Visual Studio 2022**
-> Kompilator: **Visual C++ 2022**
-> Debugger: **Lokalny Debugger Windows**
+> IDE: **Code::Blocks**
+> Kompilator: **GNU GCC Compiler**
 > Kodowanie: **UTF-8**
 > Kompatybilność: **x64**
 
